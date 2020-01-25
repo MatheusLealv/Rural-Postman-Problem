@@ -27,7 +27,6 @@ DSU *create_DSU(int n){
 	return UF;
 }
 
-// Limpa a memória do DSU, Complexidade O(N)
 void clear(DSU *UF){
 	UF->pai.clear();
 	UF->peso.clear();
